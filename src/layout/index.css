@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #252525;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.btn {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.29);
+  cursor: pointer;
+  background: #fff;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+}
+
+.btn:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.center {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-top: 0px;
+}
+
+.nav ul li:nth-child(4){
+  margin-left: auto;
+
+}
+
+table {
+  margin: auto;
+  width: 100%;
+}
+
+td:first-child {
+  display: flex;
+    align-items: center;
+}
+
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.09);
+
+}
+
+td, th {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.heart-button {
+  background: transparent;
+  border: none;
+}
+
+.textarea {
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  font-size: 15px;
+  height: 100px;
+}
+
+label input {
+  width: 100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.poll-container button {
+  width: 100px;
+  height: 30px;
+  background-color: #6e33ffc4;
+  border: 0px;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  font-weight: 100;
+  transition: background-color .3s;
+}
+
+.choice-div button {
+    font-weight: bold;
+    margin: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    background-color: #6e33ffc4;
+    border: 0px;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    transition: background-color .3s;
+}
+
+.choice-div button:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+.poll-container button:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+}
+
+.poll-container {
+  text-align: center;
+}
+
+.user-avatar {
+  width: 150px;
+  border-radius: 360px;
+}
+
+.question-preview-container {
+  width: fit-content;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #c3bdbd47;
+  min-width: 184px;
+  border-radius: 1px;
+  background-color: #efefef;
+  max-width: 184px;
+}
+
+.question-preview-container div{
+  display: flex;
+  align-items: center;
+  font-weight:bold;
+}
+
+.question-preview-container a {
+  width: 100%;
+  text-align: center;
+}
+
+
+.question-preview-container div button{
+  text-align:center;
+  margin: 0 auto;
+  display:inline-block;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  background-color: #6e33ffc4;
+  border: 0px;
+  color: white;
+  transition: background-color 0.4s;
+}
+
+.question-preview-container div button:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+.answered-question span {
+   width:100%;
+   display:block;
+   font-weight:bold;
+   font-size:15px;
+}
+
+.percentage-card {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.percentage-container {
+  display: flex; 
+  padding-bottom: 20px;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.options {
+  text-decoration: dashed;
+}
+
+.upcoming{
+  float: left;
+}
+
+.completed{
+  float: right;
+}
+
+.timestamp {
+  font-weight:100;
+  font-size:12px;
+  text-align:center;
+  margin: 0 auto;
+  display:inline-block;
+}
+
+.logout-div {
+  cursor:pointer;
+}
+
+.logout-div span {
+  font-weight: lighter !important;
+}
+
+.react-tabs__tab--selected {
+  background: #8c5efb !important;
+  border-color: #aaa;
+  color: white !important;
+  border-radius: 3px 3px 0 0 !important;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaaaaa4f !important;
+}
+
+.container ul{
+  display:table-column;
+}
+ 
