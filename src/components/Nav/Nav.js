@@ -28,7 +28,7 @@ const Nav = (props) => {
                     authedUser
                     && <li className="user-info">  
                             <div className="nav-user">
-                                <img
+                                <img data-testid="avatar"
                                 src={avatar}
                                 alt={`Avatar of ${authedUser}`}
                                 className='nav-avatar'

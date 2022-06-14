@@ -3,7 +3,7 @@ import { useEffect, Fragment } from 'react';
 import { handleInitialData } from "../actions/shared";
 import { Routes, Route } from "react-router-dom";
 import { connect } from "react-redux";
-import LoginPage from './LoginPage';
+import LoginPage from './login/LoginPage';
 import Dashboard from './Dashboard';
 import NewQuestion from './NewQuestion';
 import QuestionPage from './QuestionPage';
