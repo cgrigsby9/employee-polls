@@ -11,6 +11,14 @@ To start the app run:
 
 `npm start`
 
+# Logging in
+to log in to the app, you need to type one of these usernames where it says username, then you can use the navbar to expolore the app:
+
+1. billiejean
+2. tylerseguin
+3. danmorrison
+4. tomrose
+
 # Testing
 
 The app uses JEST to run 10 tests, including a snapshot. 
